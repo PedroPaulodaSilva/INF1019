@@ -14,7 +14,7 @@ int main(){
 		int i;
 		
 		for(i=0; i < 100; i++){
-printf("%d\n",getpid());
+			printf("%d\n",getpid());
 			cont++;			
 			printf("%d\n", cont);
 		}
